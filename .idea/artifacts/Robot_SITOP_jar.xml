@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Robot.SITOP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Robot_SITOP_jar</output-path>
+    <root id="archive" name="Robot.SITOP.jar">
+      <element id="module-output" name="Robot.SITOP" />
+    </root>
+  </artifact>
+</component>
