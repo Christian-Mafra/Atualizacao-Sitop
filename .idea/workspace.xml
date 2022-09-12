@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d806aa-070f-47d2-bb7a-9d3360843ab0" name="Changes" comment="Atualização Sitop">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Robot_SITOP_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Robot_SITOP_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/christian/mafra/org/robo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/christian/mafra/org/robo/Main.java" afterDir="false" />
     </list>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662485900081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualização Sitop">
+      <created>1662670751210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662670751210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

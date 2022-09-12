@@ -29,8 +29,10 @@ public class Main {
         //Abrir email
         robo.mouseMove(560,750);
         Click(1);
-        robo.delay(30000);
+        robo.delay(40000);
 
+        robo.mouseMove(1320,54);
+        Click(1);
         //Mais opções p/ acessar as pastas
         ClickMais();
 
@@ -72,77 +74,155 @@ public class Main {
 
         //Aba odn2
         //CopiarData(618,366, 676);
-        //Colar(1150,115);
+        //Colar(1150,124);
         //Copiando objetivo
         robo.mouseMove(300,524);
         Click(2);
         robo.delay(500);
         Copiar();
-        Colar(900,115);
+        Colar(900,134);
         AlterandoAba(320,25);
 
         //Aba odn1
-        CopiarData(620,355, 680);
-        Colar(1150,97);
+        CopiarData(628,366, 683);
+        Colar(1150,114);
         robo.mouseMove(280,524);
         Click(2);
         Copiar();
-        Colar(1260,95);
+        Colar(1260,114);
 
         //Aba norbe9
         AlterandoAba(250,25);
-        CopiarData(624,364, 682);
-        Colar(1150,78);
+        CopiarData(622,364, 682);
+        Colar(1150,90);
         robo.mouseMove(270,520);
         Click(2);
         Copiar();
-        Colar(1260,80);
+        Colar(1260,90);
 
         //Aba norbe8
         AlterandoAba(150,25);
-        CopiarData(621,364, 676);
-        Colar(1150,60);
+        CopiarData(623,364, 676);
+        Colar(1150,81);
         robo.mouseMove(280,520);
         Click(2);
         Copiar();
-        Colar(1260,65);
+        Colar(1260,81);
 
+        //norbe6
+        //Abrir aba nova, favoritos, console
+        robo.mouseMove(590,25);
+        Click(1);
+        robo.delay(1000);
+        robo.mouseMove(508,60);
+        Click(1);
+        robo.delay(10000);
+        robo.mouseMove(300,165);
+        Click(1);
+        robo.delay(60000);
+        robo.delay(20000);
+
+        //Configurar historico
+        robo.mouseMove(245,358);
+        Click(1);
+        robo.delay(3000);
+        robo.mouseMove(120,315);
+        Click(1);
+        robo.delay(1000);
+        robo.mouseMove(144,568);
+        Click(1);
+        robo.delay(4000);
+
+        //inserindo código pipes
+        robo.mouseMove(100,170);
+        Click(1);
+        robo.keyPress(KeyEvent.VK_R);
+        robo.keyPress(KeyEvent.VK_I);
+        robo.keyPress(KeyEvent.VK_M);
+        robo.keyPress(KeyEvent.VK_D);
+        robo.keyPress(KeyEvent.VK_R);
+        robo.keyPress(KeyEvent.VK_I);
+        robo.keyPress(KeyEvent.VK_L);
+        robo.keyRelease(KeyEvent.VK_L);
+        robo.keyPress(KeyEvent.VK_L);
+        Underline();
+        robo.keyPress(KeyEvent.VK_I);
+        robo.keyPress(KeyEvent.VK_N);
+        robo.keyPress(KeyEvent.VK_F);
+        robo.keyPress(KeyEvent.VK_O);
+
+        robo.keyPress(KeyEvent.VK_ENTER);
+
+        robo.keyPress(KeyEvent.VK_EQUALS);
+        robo.keyPress(KeyEvent.VK_SHIFT);
+        robo.keyPress(KeyEvent.VK_PERIOD);
+        robo.keyRelease(KeyEvent.VK_SHIFT);
+        robo.keyRelease(KeyEvent.VK_PERIOD);
+
+        robo.keyPress(KeyEvent.VK_J);
+        robo.keyPress(KeyEvent.VK_O);
+        robo.keyPress(KeyEvent.VK_B);
+        robo.keyPress(KeyEvent.VK_N);
+        robo.keyPress(KeyEvent.VK_A);
+        robo.keyPress(KeyEvent.VK_M);
+        robo.keyPress(KeyEvent.VK_E);
+        robo.keyPress(KeyEvent.VK_COMMA);
+        robo.keyPress(KeyEvent.VK_SPACE);
+        robo.keyPress(KeyEvent.VK_R);
+        robo.keyPress(KeyEvent.VK_E);
+        robo.keyPress(KeyEvent.VK_P);
+        robo.keyPress(KeyEvent.VK_O);
+        robo.keyPress(KeyEvent.VK_R);
+        robo.keyPress(KeyEvent.VK_T);
+        robo.keyPress(KeyEvent.VK_D);
+        robo.keyPress(KeyEvent.VK_A);
+        robo.keyPress(KeyEvent.VK_T);
+        robo.keyPress(KeyEvent.VK_E);
+        robo.delay(1500);
+
+        robo.mouseMove(28,363);
+        Click(1);
+        robo.delay(10000);
+        Click(1);
+        robo.mouseMove(315,530);
+        robo.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
+        robo.mouseMove(315,545);
+        robo.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
+        Copiar();
+        Colar(1270,63);
+
+
+/*
         //SALVANDO DOCUMENTO .TXT
         robo.keyPress(KeyEvent.VK_CONTROL);
         robo.keyPress(KeyEvent.VK_S);
         robo.keyRelease(KeyEvent.VK_CONTROL);
         robo.keyRelease(KeyEvent.VK_S);
-
+*/
         //COPIAR E COLAR NO TEAMS
         robo.mouseMove(1300,17);
         Click(1);
+        robo.delay(1000);
         robo.mouseMove(1,50);
         robo.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
         robo.mouseMove(2,170);
         robo.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
-        Copiar();
-
-        //FEICHANDO O DOCUMENTO .TXT
-        robo.keyPress(KeyEvent.VK_ALT);
-        robo.keyPress(KeyEvent.VK_F4);
-        robo.keyRelease(KeyEvent.VK_ALT);
-        robo.keyRelease(KeyEvent.VK_F4);
         robo.delay(500);
+        Copiar();
 
         //Abrindo o teams
         robo.mouseMove(612,752);
         Click(1);
-        robo.delay(30000);
+        robo.delay(55000);
+        robo.delay(20000);
         robo.mouseMove(500,30);
         Click(1);
-        robo.delay(500);
-        robo.keyPress(KeyEvent.VK_D);
-        robo.keyPress(KeyEvent.VK_A);
-        robo.keyPress(KeyEvent.VK_I);
-        robo.keyPress(KeyEvent.VK_L);
-        robo.keyPress(KeyEvent.VK_Y);
-        robo.delay(500);
+        robo.delay(1000);
+
+        Escreva("daily");
+        robo.delay(2000);
         robo.mouseMove(700,180);
+        robo.delay(3000);
         Click(1);
         robo.delay(4000);
         Colar(700,660);
@@ -197,6 +277,32 @@ public class Main {
 
          */
 
+    }
+
+    public static void Underline() {
+        robo.keyPress(KeyEvent.VK_SHIFT);
+        robo.keyPress(KeyEvent.VK_MINUS);
+        robo.keyRelease(KeyEvent.VK_MINUS);
+        robo.keyRelease(KeyEvent.VK_SHIFT);
+    }
+    private static void Escreva(String texto){
+        int x;
+        Character y;
+        String msg = texto;
+        robo.delay(1000);
+        for(int i = 0; i < msg.length(); i++)
+        {
+            y = msg.charAt(i);
+            if(y.hashCode() > 57){
+                x = y.hashCode() - 32;
+            }
+            else{
+                x = y.hashCode();
+            }
+            robo.keyPress(x);
+            robo.keyRelease(x);
+            robo.delay(200);
+        }
     }
 
     private static void Copiar() {
